@@ -1,0 +1,34 @@
+@import url("../css/style.css");
+@media only screen and (max-width: 991px) {
+  .navigation {
+    background-color: var(--white-color);
+    text-align: center;
+  }
+  .navigation .navbar-brand img {
+    height: 3rem;
+  }
+  .home-banner {
+    padding: 7rem 0 9rem;
+  }
+  .newsLetter input {
+    width: 50vw;
+    margin: 0.3rem auto;
+  }
+  .newsLetter button {
+    width: 50vw;
+    margin: 0.3rem auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .banner .text-content {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 778px) {
+  .slider {
+    width: 85vw;
+  }
+  .carousel-item {
+    padding: 2rem 2rem;
+  }
+}
